@@ -13,8 +13,9 @@ public class GoogleClient {
         context.getString(R.string.google_api_key),
         context.getString(R.string.search_id),
         query,
-        10,
-        1
+            "image",
+            10,
+            1
     );
   }
 }

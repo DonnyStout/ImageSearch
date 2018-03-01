@@ -12,7 +12,8 @@ public interface GoogleService {
   Single<SearchResponse> imageSearch(
       @Query("key") String key,
       @Query("cx") String cx,
-      @Query("q") String q,
+      @Query("q") String query,
+      @Query("searchType") String searchType,
       @Query("num") int num,
       @Query("start") int start
   );
